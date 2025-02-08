@@ -87,13 +87,6 @@ function Main() {
                     <div onClick={() => navigate(`/calendar`)}>자산 관리</div>
                 </div>
             </div>
-            <div>
-                <p className="big-p">챗봇</p>
-                <div className='flex flex-bot'>
-                    <input placeholder='질문을 입력하세요'></input>
-                    <div>전송</div>
-                </div>
-            </div>
             {ChangeButton && (
                 <div className="fixed inset-0 bg-black bg-opacity-30 flex items-center justify-center">
                     <div className="bg-white p-6 rounded-lg shadow-lg">
