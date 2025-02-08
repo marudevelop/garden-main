@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+# 프로젝트 이름: Won Million
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 프로젝트 시작하기
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. 프로젝트 클론
+   GitHub에서 프로젝트를 클론합니다.
+```
+git clone <프로젝트 깃허브 URL>
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. 프로젝트 폴더로 이동
 ```
+cd 프로젝트-폴더-이름
+```
+
+3. 패키지 설치
+   프로젝트에 필요한 모든 패키지를 설치합니다.
+```
+npm install
+```
+
+4. 개발 서버 실행
+   개발 서버를 실행하여 프로젝트를 시작합니다.
+```
+npm run dev
+```
+
+5. 브라우저에서 열기
+   터미널에 나타난 로컬 URL(예: http://localhost:5173)을 복사하여 브라우저에서 열어주세요.
+
+## 주요 종속성
+React (프론트엔드 라이브러리)
+TypeScript (타입 안전성 강화)
+Vite (빠른 개발 서버 및 빌드 도구)
+Framer Motion (애니메이션 라이브러리)
+Recharts (데이터 시각화 라이브러리)
+Tailwind CSS (유틸리티 퍼스트 CSS 프레임워크)
