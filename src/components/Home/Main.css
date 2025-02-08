@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.home {
+    padding: 30px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    margin-top: 30px;
+    height: calc(100% - 66px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-home {
+    background-color: white;
+    margin: 10px 0px;
+    padding: 15px;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px -5px gray;
+}
+
+.flex-home-text {
+    padding: 20px;
+}
+
+.flex-home-text2 {
+    position: relative;
+    padding-right: 20px;
+}
+
+.flex-home > div > div > p {
+    font-size: 20px;
+}
+
+.flex-home > div > p {
+    font-size: 12px;
+}
+
+.flex-box > div {
+    margin-top: 7px;
+    display: inline-flex;
+    background-color: gray;
+    padding: 0px 6px 1px;
+    border-radius: 10px;
+}
+
+.flex-box > div > p {
+    font-size: 12px;
+}
+
+.big-p {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.circle-graph {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.circle-graph > p {
+    position: absolute;
+    top: 49px;
+    left: 51px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 800;
+    color: green;
+}
+
+.text-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 15px;
+    font-size: 12px;
+    color: gray;
+}
+
+.flex-money, .flex-bot {
+    background-color: white;
+    margin: 10px 0px;
+    padding: 15px 20px;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px -5px gray;
+}
+
+.flex-money > p {
+    font-size: 18px;
+}
+
+.flex-money > div {
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.flex-bot {
+    /* height: 36px; */
+    height: 54px;
+    padding: 10px 10px;
+}
+
+.flex-bot > input {
+    margin-left: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: calc(100% - 60px);
+}
+
+.flex-bot > div {
+    background-color: blue;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 10px;
+    font-size: 15px;
+}
